@@ -3,7 +3,7 @@
 $(document).ready(function(e){
 	$('#principal').height($('#page').height());	/*Esto es de JQuery*/
 	document.addEventListener("deviceready",function(){
-    audio = window.plugin.LowLatencyAudio;
+    audio = window.plugins.LowLatencyAudio;
 	audio.preloadFX('do','audio/DO.mp3',function(){}, function(e){alert("Error " +e);});
 	
 	 
